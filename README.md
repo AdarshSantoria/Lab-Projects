@@ -1,8 +1,8 @@
 # Lab-Projects
-##Computer Science:##
+#Computer Science:
 1.Computing and Data Science
 2. Data Science
-##Electrical:##
+#Electrical:
 1.Applied Electronics
 2. Digital Systems Design
 3. Electrical Systems Around us
