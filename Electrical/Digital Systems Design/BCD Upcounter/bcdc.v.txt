@@ -1,0 +1,25 @@
+`timescale 1ns / 1ps
+module bcdc(q,clk,rst);
+output reg [3:0] q;
+input clk,rst;
+//reg [3:0] count;
+always @(posedge clk)
+if(rst)
+    begin
+//    count<=0;
+    q<=0;
+    end
+else
+    begin
+    if(q<9)
+        begin
+        q<=q+1;
+//        count<=count+1;
+        end
+    else
+        begin
+//        count <=0;
+        q<=0;
+        end
+    end
+endmodule

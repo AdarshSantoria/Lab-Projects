@@ -1,0 +1,14 @@
+`timescale 1ns / 1ps
+module test;
+reg fin = 1'b1000,rst;
+wire f2, f4, f8, f16;
+//fin, rst, f2, f4, f8, f16  .fin()
+divide_by_counter tc(fin, rst, f2, f4, f8, f16);
+initial begin
+rst=1;
+fin=0;
+#10;
+rst = 0;
+end
+always#5 fin=~fin;
+endmodule

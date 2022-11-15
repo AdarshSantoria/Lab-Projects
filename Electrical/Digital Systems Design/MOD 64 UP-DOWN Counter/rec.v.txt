@@ -1,0 +1,42 @@
+`timescale 1ns / 1ps
+module rec(q,clk,rst,d);
+output reg [5:0] q;
+input clk,rst,d;
+always @(posedge clk)
+if (d)
+    begin
+    if(rst)
+        begin
+        q<=0;
+        end
+    else
+        begin
+        if(q<63)
+            begin
+            q<=q+1;
+            end
+        else
+            begin
+            q<=0;
+            end
+        end
+    end
+else
+    begin
+    if(rst)
+        begin
+        q<=63;
+        end
+    else
+        begin
+        if(q>0)
+            begin
+            q<=q-1;
+            end
+        else
+            begin
+            q<=63;
+            end
+        end
+    end
+endmodule

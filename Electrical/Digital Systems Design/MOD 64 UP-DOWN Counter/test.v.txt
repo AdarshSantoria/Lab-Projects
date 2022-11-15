@@ -1,0 +1,13 @@
+`timescale 1ns / 1ps
+module test;
+reg clk,rst,d;
+wire [5:0] q;
+rec tc(q,clk,rst,d);
+initial begin
+rst=0;
+clk=0;
+d=0;
+#10;
+end
+always#5 clk=~clk;
+endmodule
