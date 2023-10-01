@@ -16,6 +16,12 @@ Building upon the knowledge from the previous projects, Data Science 3 delves in
 ### 4. Information Database Systems
 Information Database Systems project covers the design and implementation of relational databases. Learn how to model data, create schemas, and perform efficient queries.
 
+### 5. Introduction to TensorFlow
+Dive into the world of TensorFlow, exploring its applications in Artificial Intelligence, Machine Learning, and Deep Learning. This Coursera lab provides a comprehensive introduction to the essential concepts and practical implementations.
+
+### 6. Neural Networks and Deep Learning
+Delve into the intricacies of neural networks and deep learning in this Coursera lab. Covering fundamental concepts and advanced techniques, this module equips you with the skills needed to design and implement neural networks effectively.
+
 ## Electrical Engineering
 
 ### 1. Applied Electronics
